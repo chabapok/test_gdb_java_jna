@@ -1,0 +1,10 @@
+[package]
+name = "foo"
+version = "0.1.0"
+authors = ["Pelepeichenko Alexander <chabapok@gmail.com>"]
+
+[lib]
+crate-type = ["dylib"]
+
+[dependencies]
+bar = { path = "../bar" }

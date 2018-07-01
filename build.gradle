@@ -1,0 +1,19 @@
+apply plugin: 'java'
+apply plugin: 'application'
+
+mainClassName = "test.Main"
+sourceCompatibility = "1.9"
+
+repositories {
+    mavenLocal()
+    mavenCentral()
+    jcenter()
+}
+
+dependencies {
+    compile group: 'net.java.dev.jna', name: 'jna', version: '4.5.1'
+}
+
+run {
+    environment "LD_LIBRARY_PATH", "$buildDir/../foo/target/debug"
+}
