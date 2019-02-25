@@ -1,6 +1,9 @@
 # test_gdb_java_jna
 Не работает команда step в другой crate. Она отрабатывает как next - без захода внутрь.
 
+
+kjhkjhkjh
+
 1. заходим в foo и делаем
     cargo build
 
