@@ -2,7 +2,7 @@
 Не работает команда step в другой crate. Она отрабатывает как next - без захода внутрь.
 
 
-kjhkjhkjh
+bad string
 
 test string
 
