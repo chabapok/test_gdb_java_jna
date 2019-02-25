@@ -4,6 +4,8 @@
 
 kjhkjhkjh
 
+test string
+
 1. заходим в foo и делаем
     cargo build
 
